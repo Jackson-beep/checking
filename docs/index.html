@@ -298,6 +298,77 @@ color: #dde5da;
   0% { background-position: 0 0; }
   100% { background-position: 100px 100px; }
 }
+
+  /* ===========================
+   RESPONSIVIDADE (CELULAR)
+=========================== */
+@media (max-width: 768px) {
+
+  .start-box {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .top h1 {
+    font-size: 2rem;
+  }
+
+  .bottom {
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+  }
+
+  .check {
+    transform: rotate(-1deg) scale(1);
+    width: 100%;
+  }
+
+  .check-border {
+    padding: 12px;
+  }
+
+  .content {
+    padding: 20px 10px;
+  }
+
+  .check-line-row {
+    font-size: 11px;
+  }
+
+  .hand {
+    font-size: 15px;
+  }
+
+  .amount-box {
+    font-size: 12px;
+    padding: 2px 6px;
+  }
+
+  .pay-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .pay-right {
+    text-align: left;
+  }
+
+  .scene {
+    background-position: center;
+  }
+}
+
+/* Celulares muito pequenos */
+@media (max-width: 400px) {
+  .top h1 {
+    font-size: 1.5rem;
+  }
+
+  .bottom {
+    font-size: 1.2rem;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -445,4 +516,5 @@ setInterval(() => {
 <img id="hallucination" src="IMG_20251207_175819643_HDR~2.jpg">
 
 </body>
+
 </html>
